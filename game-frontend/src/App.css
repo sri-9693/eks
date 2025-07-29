@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf8ef;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #776e65;
+  margin-bottom: 20px;
+}
+
+.board {
+  display: inline-block;
+  background: #bbada0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  background: #cdc1b4;
+  border-radius: 5px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #776e65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  margin-top: 30px;
+}
+
+.controls button {
+  background: #8f7a66;
+  color: #f9f6f2;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.controls button:hover {
+  background: #9e8b75;
+  transform: scale(1.05);
+}
